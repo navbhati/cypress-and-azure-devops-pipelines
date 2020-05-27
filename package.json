@@ -1,7 +1,7 @@
 {
-  "name": "helpandfaqsautomation",
+  "name": "cypress and azure devops",
   "version": "1.0.0",
-  "description": "Automation of the LIVE CHAT journey",
+  "description": "cypress and azure devops",
   "main": "index.js",
   "scripts": {
     "esl": "eslint .",
