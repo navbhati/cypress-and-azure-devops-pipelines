@@ -32,6 +32,8 @@ steps:
     displayName: "Run Cypress tests"
 
   - task: PublishTestResults@2
+    displayName: 'Publish Test Results'
+    condition: succeededOrFailed()
     inputs:
       testResultsFormat: "JUnit"
       testResultsFiles: "**/cypress-and-azure-devops-*.xml"
