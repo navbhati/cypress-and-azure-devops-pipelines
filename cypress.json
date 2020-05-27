@@ -1,0 +1,10 @@
+{
+    "reporter": "junit",
+    "reporterOptions": {
+        "mochaFile": "results/cypress-and-azure-devops-[hash].xml",
+        "toConsole": true,
+        "html": false
+    },
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 8000
+}

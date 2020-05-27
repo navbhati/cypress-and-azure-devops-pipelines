@@ -1,0 +1,11 @@
+{
+    "helpAndFAQsUrl": "https://www.asos.com/customer-care/",
+    "testCases": {
+        "Delivery": "/customer-care/delivery/",
+        "Returns & Refunds": "/customer-care/returns-refunds/",
+        "Order issues": "/customer-care/order-issues/",
+        "Product & Stock": "/customer-care/product-stock",
+        "Payment, Promos & Gift Vouchers": "/customer-care/payment-promos-gift-vouchers/",
+        "Technical": "/customer-care/technical/"
+    }
+}

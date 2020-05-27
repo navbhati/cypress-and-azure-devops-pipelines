@@ -1,0 +1,11 @@
+{
+    "helpAndFAQsUrl": "https://www.asos.com/fr/service-client/",
+    "testCases": {
+        "Infos et livraisons": "/fr/service-client/infos-et-livraisons/",
+        "Retours et remboursements": "/fr/service-client/retours-remboursements/",
+        "Un problème avec votre commande": "/fr/service-client/un-probleme-avec-votre-commande/",
+        "Produits et stocks": "/fr/service-client/produits-stocks/",
+        "Paiements, promos et chèques-cadeaux": "/fr/service-client/paiements-promos-cheques-cadeaux/",
+        "Questions techniques": "/fr/service-client/questions-techniques/"
+    }
+}

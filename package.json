@@ -1,0 +1,24 @@
+{
+  "name": "helpandfaqsautomation",
+  "version": "1.0.0",
+  "description": "Automation of the LIVE CHAT journey",
+  "main": "index.js",
+  "scripts": {
+    "esl": "eslint .",
+    "esl:fix": "eslint --fix .",
+    "test": "test",
+    "cy:verify": "cypress verify",
+    "cy:version": "cypress version",
+    "cy:open": "npm run esl && cypress open",
+    "cy:run:headed": "npm run esl && cypress run --headed",
+    "cy:run:chrome": "npm run esl && cypress run --headless --browser chrome",
+    "cy:run:reporter": "npm run esl && cypress run --headless --browser chrome --config defaultCommandTimeout=10000 --reporter junit --reporter-options mochaFile=results/liveChat-all-test-results-[hash].xml,toConsole=true",
+    "cy:run": "npm run esl && cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^4.1.0",
+    "eslint": "^6.2.0",
+    "eslint-plugin-cypress": "^2.6.1",
+    "webpack": "^3.6.0"
+  }
+}
