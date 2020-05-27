@@ -25,4 +25,3 @@ results/*
 cypress/screenshots/*
 package-lock.json
 cypress.env.json
-node_modules
