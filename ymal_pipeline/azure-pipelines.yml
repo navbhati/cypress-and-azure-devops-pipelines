@@ -23,7 +23,7 @@ steps:
       versionSpec: 10.x
 
   - script: "npm install"
-    displayName: "npm Install and Build"
+    displayName: "npm Install"
 
   - script: "npm run cy:verify"
     displayName: "Cypress Verify"
