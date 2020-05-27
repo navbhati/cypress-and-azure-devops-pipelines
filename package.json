@@ -11,8 +11,8 @@
     "cy:version": "cypress version",
     "cy:open": "npm run esl && cypress open",
     "cy:run:headed": "npm run esl && cypress run --headed",
-    "cy:run:chrome": "npm run esl && cypress run --headless --browser chrome",
-    "cy:run:reporter": "npm run esl && cypress run --headless --browser chrome --config defaultCommandTimeout=10000 --reporter junit --reporter-options mochaFile=results/liveChat-all-test-results-[hash].xml,toConsole=true",
+    "cy:run:headless": "npm run esl && cypress run --headless",
+    "cy:run:reporter": "npm run esl && cypress run --headless --config defaultCommandTimeout=10000 --reporter junit --reporter-options mochaFile=results/cypress-and-azure-devops-[hash].xml,toConsole=true",
     "cy:run": "npm run esl && cypress run"
   },
   "devDependencies": {

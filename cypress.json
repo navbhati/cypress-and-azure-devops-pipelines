@@ -6,5 +6,6 @@
         "html": false
     },
     "chromeWebSecurity": false,
-    "defaultCommandTimeout": 8000
+    "defaultCommandTimeout": 8000,
+    "pluginsFile": false
 }
