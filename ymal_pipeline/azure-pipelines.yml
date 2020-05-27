@@ -31,8 +31,15 @@ steps:
   - script: "npm run cy:run:reporter"
     displayName: "Run Cypress tests"
 
+  - task: PublishBuildArtifacts@1
+    displayName: "Publish Artifact: cypress-and-azure-devops Screenshots "
+    inputs:
+      PathtoPublish: cypress/screenshots
+      ArtifactName: CypressAndAzureDevopsTestRunScreenshots
+    condition: succeededOrFailed()
+
   - task: PublishTestResults@2
-    displayName: 'Publish Test Results'
+    displayName: "Publish Test Results"
     condition: succeededOrFailed()
     inputs:
       testResultsFormat: "JUnit"
