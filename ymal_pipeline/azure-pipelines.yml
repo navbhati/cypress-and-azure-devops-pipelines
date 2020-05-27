@@ -37,7 +37,7 @@ steps:
     inputs:
       PathtoPublish: cypress/screenshots
       ArtifactName: CypressAndAzureDevopsTestRunScreenshots
-    condition: succeededOrFailed()
+    condition: failed()
 
   - task: PublishBuildArtifacts@1
     displayName: "Publish Artifact: cypress-and-azure-devops Videos "
